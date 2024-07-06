@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="/ESTILOS/styleVDI.css">
+</head>
+<body onload="carregar()">
+    <section>
+        <h1 id="h10">Verificador de Idade</h1>
+        <div id="div00">
+        <p id="p0">
+            Ano de Nascimento:<input type="number" name="" id="AnodeNas">
+        </p>
+        <p>
+            Sexo:
+            <input type="radio" name="sex" id="Sexmas">
+            <label for="in01">Maculino</label>
+            <input type="radio" name="sex" id="Sexfem">
+            <label for="in02">Feminino</label>
+        </p>
+        
+        <input type="button" value="Verificar" id="verificar" onclick="clicar()" onclick="clicar2()">
+        <p id="parag1">
+            Preencha os dados acima para ver o resultado!
+        </p>
+        <p id="resultado"></p><p id="resultado2"></p>
+        <p id="resultado3"></p>
+    </div>
+    </section>
+    <script src="/scripts/ex08.js"></script>
+</body>
+</html>

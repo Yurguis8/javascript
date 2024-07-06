@@ -1,0 +1,61 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "pixel";
+    src:url(Fontes/TTF/dogica.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: rgb(24, 24, 24);
+}
+p{
+    line-height: 100px;
+}
+main{
+    color: #FFF;
+}
+section{
+    color: #FFF;
+    font-family: 'pixel';
+    text-align: center;
+}
+mark{
+    background-color: #d80230;
+    padding: 5px;
+}
+mark#markv{
+    background-color: chartreuse;
+}
+.button_slide {
+    color: #FFF;
+    border: 2px solid rgb(216, 2, 134);
+    border-radius: 0px;
+    padding: 19px 36px;
+    display: inline-block;
+    font-family: "pixel";
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    text-align: center;
+}
+.slide_right:hover {
+    box-shadow: inset 400px 0 0 0 #D80286;
+}
+.inpano{
+    border-radius: 0;
+    background-color: #00000000;
+    border-color: #D80286;
+    text-align: center;
+    align-items: end;
+    color: #FFF;
+    height: 40px;
+    font-size: large;
+    font-family: 'pixel';
+}
+hr{
+    width: 200px;
+}

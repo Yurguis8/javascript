@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/ESTILOS/style.css">
+</head>
+<body>
+    <div id="d1">
+        Interaja...
+    </div>
+    <div id="d2" hidden>Páragrafo 1</div>
+        <p id="p0" hidden>Clique acima para ir a próxima página</p>
+
+
+    <a href="ex04.html" id="a1" hidden><button style="background-color: rgb(188, 137, 236);" id="b0" class="b8">Próxima Página</button></a>
+
+    <script>
+        var d1 = document.getElementById('d1')
+        var c1= document.querySelector('div#c1')
+        d1.addEventListener('click', clicar )
+        d1.addEventListener('mouseenter', Men1)
+        d1.addEventListener('mouseout', Mdo1 )
+        function Men1(){
+            d1.innerText = 'Interaja com um clique e veja o que acontece!'
+            d1.style.backgroundColor='aquamarine'
+        }
+        function Mdo1(){
+            d1.innerText='Interaja...'
+            d1.style.backgroundColor='rgb(245,245,220)'
+        }
+        function clicar(){
+           d1.innerText = 'Clicou!'
+           d1.style.backgroundColor='rgb(245,245,220)'
+           d1.insertAdjacentElement('afterend', a1).removeAttribute('hidden')
+           d2.insertAdjacentElement('afterend', p0).removeAttribute('hidden')
+        }           
+    </script>
+</body>
+</html>

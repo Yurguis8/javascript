@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamos Contar!</title>
+    <link rel="stylesheet" href="/ESTILOS/style7.css">
+</head>
+<body>
+    <header> <h1>Vamos contar!</h1></header>
+        <section>
+            <div id="Calculando">
+                <p id="p1">
+                    <label for="i" class="lab1">Número para a tabuada:</label> <input type="number" name="inputinicio" id="inputinicio" class="input">
+                    
+                </p>
+<hr>
+                <p>
+                    <label for="i" class="lab1">Valor da contagem:</label> <input type="number" name="inputvalor" id="inputvalor" class="input">
+                </p>
+            </div>
+            <div class="Resultado">
+            <input type="button" value="Conte!" onclick="Contar()" id="inputbconte">
+            <p id="Resultado">Esperando...</p>
+            </div>
+            <div id="tabuada">
+                <p>A Tabuada vai aparecer aqui!</p>
+                <textarea name="tabuada" id="areatabuada"></textarea>
+            </div>
+        </section>
+    <script src="/scripts/ex12.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body{
+    background-color: #8cc9ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    background-color: #8cc9ff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    text-align: center;
+}
+h1#h10{
+    font-style: italic;
+}
+div#div00{
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    border-style: solid;
+}
+input#AnodeNas{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 60, 112);
+    border-radius: 5px;
+    text-align: center;
+    
+}
+p{
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+p#resultado{
+    color: #ff0000;
+    text-align: justify;
+    font-size: x-large;
+    background-color: rgb(255, 255, 255);
+}
+p#resultado2{
+    color: chartreuse;
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: rgb(11, 175, 32);
+}
+div#divdores2{
+    background-color: hsla(0, 0%, 100%, 0);
+    padding: 12px;
+    border-radius: 5px;
+    text-align: justify;
+    width: 400px;
+    margin: auto;
+    height: 2px;
+}
+input#verificar{
+    border-style: solid;
+    border-color: rgb(22, 0, 224);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 6px;
+    text-align: right;
+    background-color: #dddddd;
+}

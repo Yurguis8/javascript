@@ -1,0 +1,74 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(248, 230, 208);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1#h4{
+    background-color: rgb(37, 64, 65);
+    color: rgb(248, 240, 227);
+    border-radius: 10px;
+    padding: 10px;
+}
+div#d1{
+    background-color: rgb(245, 245, 220);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    margin: auto;
+    border-radius: 7px;
+}
+button#b0{
+    border-radius: 5px;
+}
+p#p0{
+    color: ghostwhite;
+    background-color: rgb(46, 45, 45);
+    width: 275px;
+    padding: 10px;
+    border-radius: 10px;
+}
+input#bs1{
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 15px;
+    padding: 7px;
+    border-color: aliceblue;
+    border-style: solid;
+    margin: auto;
+}
+input#bm1{
+    border-radius: 15px;
+    background-color: rgb(47, 94, 0);
+    color: aliceblue;
+    padding: 7px;
+    border-color: aliceblue;
+    border-style: solid;
+    margin: auto;
+}
+input#bd1{
+    border-radius: 15px;
+    background-color: chocolate;
+    color: aliceblue;
+    padding: 7px;
+    border-color: aliceblue;
+    border-style: solid;
+    margin: auto;
+}
+main#main1{
+    background-color: rgb(54, 41, 49);
+    border-radius: 10px;
+    padding: 90px;
+    margin: auto;
+    line-height: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+div{
+    color: aliceblue;
+}
+input{
+    width: 100px;
+}

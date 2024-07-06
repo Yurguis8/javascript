@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/ESTILOS/style.css">
+</head>
+<body>
+    <h1 id="h4">Calculadora simplificada até 100</h1>
+    <main id="main1">
+        <input type="number" id="nu1"> +
+        <input type="number" id="nu2">
+        <input type="button" value="Somar" id="bs1" onclick="somar()"> <br>
+        <div id="d3"></div>
+        <input type="number" id="nu3"> x
+        <input type="number" id="nu4">
+        <input type="button" value="Multiplicar" onclick="multi()" id="bm1">
+        <div id="d4"></div>
+        <input type="number" id="nu5"> /
+        <input type="number" id="nu6">
+        <input type="button" value="Dividir" onclick="divi()" id="bd1">
+        <div id="d5"></div>
+    </main>
+
+    <script>
+    function somar(){
+        var tn1 = document.getElementById('nu1')
+        var tn2 = document.getElementById('nu2')
+        var n1 = Number(tn1.value)
+        var n2 = Number(tn2.value)
+        var so1 = n1+n2
+        var d3 = document.querySelector('div#d3')
+        d3.innerHTML = `A soma dos valores é: ${so1}`
+    }
+    function multi(){
+        var tn3 = document.getElementById('nu3')
+        var tn4 = document.getElementById('nu4')
+        var n3 = Number(tn3.value)
+        var n4 = Number(tn4.value)
+        var so2 = n3*n4
+        var d4 = document.querySelector('div#d4')
+        d4.innerHTML = `A multiplicação dos valores é: ${so2}`
+    }
+    function divi(){
+        var tn5 = document.getElementById('nu5')
+        var tn6 = document.getElementById('nu6')
+        var n5 = Number(tn5.value)
+        var n6 = Number(tn6.value)
+        var so3 = n5/n6
+        var d5 = document.querySelector('div#d5')
+        d5.innerHTML = `A divisão dos valores é: ${so3}`
+    }
+    </script>
+</body>
+</html>

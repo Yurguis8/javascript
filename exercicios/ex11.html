@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamos Contar!</title>
+    <link rel="stylesheet" href="/ESTILOS/style6.css">
+</head>
+<body>
+    <header> <h1>Vamos contar!</h1></header>
+    <section>
+        <div id="Calculando">
+            <p id="p1">
+                <label for="i" class="lab1">Início:</label> <input type="number" name="inputinicio" id="inputinicio" class="input">
+            </p>
+        
+        <hr>
+            <p id="p2">
+                <label for="fim" id="labfim">Fim:</label> <input type="number" name="inputfim" id="inputfim" class="input">
+            </p>
+        
+        <hr>
+            <p id="p3">
+                <label for="p" class="lab1">Passo:</label> <input type="number" name="inputpasso" id="inputpasso" class="input">
+            </p> 
+        
+        <hr>
+        </div>
+        <div class="Resultado">
+            <input type="button" value="Conte!" onclick="Contar()" id="inputbconte">
+            <p id="Resultado">Esperando...</p>
+        </div>
+    </section>
+    <script src="/scripts/ex11.js"></script>
+</body>
+</html>
